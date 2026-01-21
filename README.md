@@ -26,11 +26,13 @@ This project was born out of economic necessity: the goal is to significantly re
 
 # Notes
 
+* This repository code is extremely basic and minimal because the goal is just to share the idea. However, your comments and questions are welcome.
+
 * In the short term, we do not focus on instant speed. We accept a 1 to 2-second delay as a fair trade-off for the massive gain in model capacity. 
 
 * This method is clearly beneficial for both small-scale and ultra-large LLMs—and neural networks in general. However, as hardware configurations evolve, the implementation flow must adapt drastically, scaling from consumer-grade setups to enterprise-level industrial clusters.
 
-* 
+* Use cases documenting seamless operational performance, alongside detailed VRAM and energy consumption metrics, are highly encouraged and essential.
 
 
 
