@@ -13,13 +13,19 @@ This project was born out of economic necessity: the goal is to significantly re
 
 - The Wozniak Query Test: To validate the routing logic, the system uses the "Wozniak Query" ("Who’s the wizard who built the Apple II almost entirely by himself?"). This serves as a benchmark for the Router's ability to identify hardware-history keywords and successfully shuffle the "Computer Science" expert into the active VRAM slot.
 
-# Projected Operational Benefits
+# Main Projected Operational Benefits
+
+- **Lower VRAM Requirement:**
+- **Lower Gnereal Hardware Cost:**
+
+# Main Projected Operational Challenges
+
+- **Switching Speed:**
+- **Complex Memory Management**
+
+# Notes
 
 
-# Projected Operational Challenges
-
-
-# Remarks
 
 
 
