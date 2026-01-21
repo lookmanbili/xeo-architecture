@@ -6,6 +6,11 @@ The SMoE Architecture circumvents this limit by introducing the X-Slot—a dynam
 
 This project was born out of economic necessity: the goal is to significantly reduce the cost of running high-parameter intelligence by utilizing Dynamic VRAM Shuffling. By treating the GPU as a transient cache rather than a static storage unit, the SMoE Architecture allows a single consumer-grade GPU to provide the breadth of a 10-model cluster with minimal efficiency drawbacks in the mid-term.
 
+# Main Projected Operational Benefits
+
+- **Lower VRAM Requirement:** Standard MoE forces all experts into VRAM, requiring expensive, multi-GPU setups. SMoE keeps experts in System RAM, only loading one into the "X-Slot" when needed. This allows users and enterprises to run massive, gazillion-parameter models on single consumer GPUs, slashing hardware costs tremendously.
+- **Lower Energy Cost:** Standard LLM and MoE architectures require massive power to keep an entire GPU cluster idling and cooled, as every parameter must remain resident in VRAM. SMoE Architecture slashes energy consumption tremendously by operating on a single GPU. By only 'powering up' one expert in the X-Slot at a time, it eliminates the massive electrical overhead and industrial cooling requirements of enterprise data centers.
+
 # Key Components & Philosophy
 
 - **Economic Optimization:** By keeping experts pinned in System RAM and only "parking" them in VRAM for active inference, we need less specialized hardware to achieve high-level results. This approach allows the system to bypass the need for multi-GPU setups or expensive, high-VRAM enterprise hardware, making "gazillion-parameter" logic accessible on standard consumer machines.
@@ -15,10 +20,6 @@ This project was born out of economic necessity: the goal is to significantly re
 - **The Wozniak Query Test:** To validate the routing logic, the system uses the "Wozniak Query" ("Who’s the wizard who built the Apple II almost entirely by himself?"). This serves as a benchmark for the Router's ability to identify hardware-history keywords and successfully shuffle the "Computer Science" expert into the active VRAM slot.
 
 
-# Main Projected Operational Benefits
-
-- **Lower VRAM Requirement:** Standard MoE forces all experts into VRAM, requiring expensive, multi-GPU setups. SMoE keeps experts in System RAM, only loading one into the "X-Slot" when needed. This allows users and enterprises to run massive, gazillion-parameter models on single consumer GPUs, slashing hardware costs tremendously.
-- **Lower Energy Cost:** Standard LLM and MoE architectures require massive power to keep an entire GPU cluster idling and cooled, as every parameter must remain resident in VRAM. SMoE Architecture slashes energy consumption tremendously by operating on a single GPU. By only 'powering up' one expert in the X-Slot at a time, it eliminates the massive electrical overhead and industrial cooling requirements of enterprise data centers.
 
 # Main Projected Operational Challenges
 
