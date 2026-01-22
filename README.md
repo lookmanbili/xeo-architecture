@@ -35,7 +35,7 @@ This project was born out of economic necessity: the goal is to significantly re
 
 - **Complex Memory Management:** Efficient memory management creates a perfectly timed flow of experts between System RAM and VRAM. Mastering this 'hand-off' ensures a seamless, high-performance experience.
 
-# nternal Notes
+# Internal Notes
 
 * This repository code is extremely basic and minimal because the goal is just to share the idea for the time being. However, your comments and questions are welcome.
 
