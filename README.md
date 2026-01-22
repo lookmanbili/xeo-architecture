@@ -14,7 +14,8 @@ This project was born out of economic necessity: the goal is to significantly re
 
 
 
-<img width="722" height="510" alt="SMoE" src="https://github.com/user-attachments/assets/00ce7bda-5e32-4f71-a717-633e43a049fa" />
+<img width="741" height="721" alt="shuffledsmoe" src="https://github.com/user-attachments/assets/2b145798-64af-4fbb-9725-c12bf809c7c7" />
+
 
 
 
@@ -52,7 +53,7 @@ This project was born out of economic necessity: the goal is to significantly re
 * 21/01/2026 Charming_Zucchini648 (Reddit) suggested many benchmarks to check for possible inference gains.
 
 
-
+<img width="722" height="510" alt="SMoE" src="https://github.com/user-attachments/assets/00ce7bda-5e32-4f71-a717-633e43a049fa" />
 
 
 #21/01/2026
