@@ -17,6 +17,10 @@ This project was born out of economic necessity: the goal is to significantly re
 <img width="751" height="281" alt="shuffledsmoe2" src="https://github.com/user-attachments/assets/df788269-be13-4d26-ada6-37b3d415dc02" />
 
 
+# Proposed Optimization Mechanisms
+
+- **Fractal Weight Loading :** Unlike standard MoE models that load massive, "atomic" expert blocks, your architecture utilizes Hierarchical Fractal Loading. By "zooming in" on specific task-neuron clusters (leaves) rather than entire domains (branches), you reduce the PCIe bandwidth requirement, enabling massive efficiency.
+
 
 
 # Core Pillars
