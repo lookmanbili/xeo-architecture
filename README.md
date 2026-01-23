@@ -33,9 +33,9 @@ We fix for the moment 01 negotiable pillar:
 
 - **Inference Speed :** Inference speed is strategically moderated to accommodate the low hardware constraints. In instances of significant context shifts , a controlled latency margin is permitted, ensuring that the User Reaction Time does not exceed an undesirable threshold. And while the architecture accommodates short-term adaptive latency during extreme context pivots, the overarching objective is the achievement of Ultra-High Inference Throughput. 
 
+
 # Key Philosophy
 
-- ****
 
 - **Economic Optimization :** By keeping experts pinned in System RAM and only "parking" them in VRAM for active inference, we need less specialized hardware to achieve high-level results. This approach allows the system to bypass the need for multi-GPU setups or expensive, high-VRAM enterprise hardware, making "gazillion-parameter" logic accessible on standard consumer machines.
 
