@@ -21,7 +21,7 @@ This project was born out of economic necessity: the goal is to significantly re
 
 - **Fractal Weight Loading :** Unlike standard MoE models that load massive, "atomic" expert blocks, this architecture utilizes Hierarchical Fractal Loading. By "zooming in" on specific task-neuron clusters (leaves) rather than entire domains (branches), we reduce the PCIe bandwidth requirement, enabling massive efficiency.
 
-
+- **Temporal Latency Masking :** This architecture leverages the Temporal Gap existing between user input and model execution to mitigate physical data-transfer bottlenecks. During the user-input phase or the initial token-parsing sequence, the Predictive Orchestrator initiates asynchronous background transfers. This mechanism effectively masks PCIe latency within the human-interaction window, ensuring that the necessary fractal weights are resident in the X-Slot before the execution phase commences.
 
 # Core Pillars
 
