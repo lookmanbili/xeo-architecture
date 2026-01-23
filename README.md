@@ -41,6 +41,8 @@ We adhere to 03 non-negotiable pillars:
   
 - **Low Hardware Barrier :** The architecture is subjected to continuous benchmarking against perceived "standard user-level" hardware . This ensures that performance gains are derived from algorithmic orchestration rather than proprietary, high-value hardware features.
 
+- **Good Enough Speed :** The target speed is set to a standard of 20–30 tokens per second, ensuring a high-quality human experience.
+
 We fix for the moment 01 negotiable pillar:
 
 - **Inference Speed :** Inference speed is strategically moderated to accommodate the low hardware constraints. In instances of significant context shifts , a controlled latency margin is permitted, ensuring that the User Reaction Time does not exceed an undesirable threshold. And while the architecture accommodates short-term adaptive latency during extreme context pivots, the overarching objective is the achievement of Ultra-High Inference Throughput. 
