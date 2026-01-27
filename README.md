@@ -9,7 +9,11 @@ The FPSMoE Architecture circumvents this limit by introducing the X-Slot—a dyn
 ***FPSMoE is a forward-designed LLM architecture for training or deeply fine-tuning models with hierarchical, modular experts from the ground up. It enables dynamic expert loading and memory-efficient inference, and _is intended for builders shaping new models and is not designed for retrofitting existing monolithic LLMs_.***
 
 
+
+
 <img width="881" height="221" alt="fps" src="https://github.com/user-attachments/assets/1fcf71ee-e7d7-4a04-86d5-b527ae7650cd" />
+
+
 
 
 This project was born out of economic necessity, aiming to reduce hardware costs for smaller setups while remaining optimized for larger deployments. By improving expert selection and utilization, FPSMoE uses less hardware and consumes less energy. Dynamic VRAM shuffling treats VRAM as a working set rather than a warehouse, enabling high-parameter generative models to run efficiently on consumer-grade systems.
