@@ -4,7 +4,9 @@ The modern Mixture of Experts technique was designed to lower hardware requireme
 
 The FPSMoE Architecture circumvents this limit by introducing the X-Slot—a dynamic gateway that swaps experts from System RAM only when they are needed. It is a hardware-aware framework designed to orchestrate an LLM expert within a constrained VRAM environment.  By managing VRAM as an asynchronous buffer dedicated to incoming fractal weights, you enable trillion-parameter models to run on standard consumer GPUs with a huge context agility; this is basically an slightly enhanced offloading mechanism.
 
-This project was born out of economic necessity: the goal is to significantly reduce the cost of running high-parameter intelligence by utilizing Dynamic VRAM Shuffling. By treating the GPU as a temporary workspace rather than a permanent warehouse, our architecture lets a single home computer do the work of multiple servers without losing speed, theoretically.
+This project was born out of economic necessity: the goal is to significantly reduce the cost of running high-parameter intelligence by utilizing Dynamic VRAM Shuffling. By _treating the GPU as a temporary workspace rather than a permanent warehouse_, our architecture lets a single home computer do the work of multiple servers without losing speed, theoretically.
+
+FPSMoE is a forward-designed LLM architecture for training or deeply fine-tuning models with hierarchical, modular experts from the ground up. It enables dynamic expert loading and memory-efficient inference, and _is intended for builders shaping new models and is not designed for retrofitting existing monolithic LLMs_.
 
 # Main Projected Operational Benefits
 
